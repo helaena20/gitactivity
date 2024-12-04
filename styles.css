@@ -1,0 +1,391 @@
+ /* Global Styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #0066cc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.cta-button {
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+}
+
+/* Section Styles */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Ensuring the button is centered */
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cta-button {
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+}
+
+
+/* Vision & Mission */
+.vision-mission {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.vision, .mission {
+    width: 45%;
+}
+
+.vision h3, .mission h3 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+/* Mission Styling */
+.mission p {
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.mission ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.mission ul li {
+    margin-bottom: 10px;
+}
+
+/* Core Values Styling */
+.core-values {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.core-values h3 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.core-values p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.core-values ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.core-values ul li {
+    margin-bottom: 5px;
+}
+
+
+/* Core Values Alignment */
+.core-values {
+    margin-top: 40px;
+    text-align: left; /* Left-align the description */
+}
+
+.core-values h3 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.core-values p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Center Align Core Values List */
+.core-values-list {
+    display: flex;
+    justify-content: center;
+}
+
+.core-values-list ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.core-values-list ul li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+/* Academic Programs */
+.programs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.program {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.program h3 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.program p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .vision-mission {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .programs {
+        grid-template-columns: 1fr;
+    }
+
+    .program {
+        margin: 10px 0;
+    }
+}
+
+/* Slider Styles */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Make sure slider images are responsive */
+@media (max-width: 768px) {
+    .slide {
+        height: 250px;
+    }
+}
+
+/* Fade-In Text Effect */
+.hero h1, .hero p {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s forwards;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Delay text for sequential fade-in */
+.hero h1 {
+    animation-delay: 0.5s;
+}
+
+.hero p {
+    animation-delay: 1s;
+}
+
+/* Define fade-in animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Button Hover Effects */
+.cta-button {
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+    transform: scale(1.1);
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
