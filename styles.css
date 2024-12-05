@@ -275,23 +275,8 @@ footer p {
 }
 
 /* Optional: add background images */
-.slide:nth-child(1) {
-    background-image: url('./EC.png.png');
-    background-size: contain;
-    background-position: center;
-}
 
-.slide:nth-child(2) {
-    background-image: url('./LS.png.png');
-    background-size: cover;
-    background-position: center;
-}
 
-.slide:nth-child(3) {
-    background-image: url('./MD.png.png');
-    background-size: cover;
-    background-position: center;
-}
 .slide:nth-child(4) {
     background-image: url('./JHS_122024.png.png');
     background-size: contain;
