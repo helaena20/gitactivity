@@ -44,6 +44,7 @@ header .logo img {
     font-family: 'Poppins', sans-serif; /* You can change the font family if needed */
 }
 
+
 header nav ul {
     list-style-type: none;
     display: flex;
