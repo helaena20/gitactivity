@@ -26,9 +26,22 @@ header {
     z-index: 1000;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center; /* Vertically center the logo and text */
+}
+
 header .logo img {
     height: 125px;
     width: 125px;
+    margin-right: 10px;
+    
+}
+
+.school-name {
+    font-size: 24px;
+    font-weight: 600; /* Make the school name bold */
+    font-family: 'Poppins', sans-serif; /* You can change the font family if needed */
 }
 
 header nav ul {
