@@ -52,7 +52,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url('hero-bg.jpg');
+    background-image: url('school.jpg');
     background-size: cover;
     background-position: center;
     color: white;
