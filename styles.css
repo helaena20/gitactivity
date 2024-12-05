@@ -257,10 +257,10 @@ footer p {
 .slider {
     position: relative;
     width: 100%;
-    height: 100vh;  /* You can set this to whatever height fits your design */
+    height: 100vh;  
     overflow: hidden;
     display: flex;
-    justify-content: center; /* Center images in the slider */
+    justify-content: center; 
 }
 
 .slide {
@@ -282,9 +282,9 @@ footer p {
 .slide img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Ensures the entire image is visible without cropping */
+    object-fit: contain; 
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto; 
 }
 
 
