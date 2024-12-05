@@ -292,6 +292,21 @@ footer p {
     background-size: cover;
     background-position: center;
 }
+.slide:nth-child(4) {
+    background-image: url('./EC.png.png');
+    background-size: contain;
+    background-position: center;
+}
+.slide:nth-child(5) {
+    background-image: url('./LS.png.png');
+    background-size: contain;
+    background-position: center;
+}
+.slide:nth-child(6) {
+    background-image: url('./MD.png.png');
+    background-size: contain;
+    background-position: center;
+}
 
 
 .slider .slide {
