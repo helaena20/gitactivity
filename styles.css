@@ -276,34 +276,34 @@ footer p {
 
 /* Optional: add background images */
 .slide:nth-child(1) {
-    background-image: url('./JHS.png.png');
+    background-image: url('./EC.png.png');
     background-size: contain;
     background-position: center;
 }
 
 .slide:nth-child(2) {
-    background-image: url('./SHS.png.png');
+    background-image: url('./LS.png.png');
     background-size: cover;
     background-position: center;
 }
 
 .slide:nth-child(3) {
-    background-image: url('./COLLEGE.png.png');
+    background-image: url('./MD.png.png');
     background-size: cover;
     background-position: center;
 }
 .slide:nth-child(4) {
-    background-image: url('./EC.png.png');
+    background-image: url('./JHS_122024.png.png');
     background-size: contain;
     background-position: center;
 }
 .slide:nth-child(5) {
-    background-image: url('./LS.png.png');
+    background-image: url('./SHS_122024-1.png.png');
     background-size: contain;
     background-position: center;
 }
 .slide:nth-child(6) {
-    background-image: url('./MD.png.png');
+    background-image: url('./COLLEGE_122024.png.png');
     background-size: contain;
     background-position: center;
 }
