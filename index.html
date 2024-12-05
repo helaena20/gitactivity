@@ -1,4 +1,4 @@
-html <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@ html <!DOCTYPE html>
     <meta name="description" content="Official homepage of LCC Tanauan">
     <meta name="author" content="LCC Tanauan">
     <title>LCC Tanauan Official Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -28,30 +28,36 @@ html <!DOCTYPE html>
     </header>
 
     <!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="hero-content">
-        <h1>Welcome to LCC Tanauan</h1>
-        <p>Your future begins here. Choose Good, Choose LCC Tanauan!</p>
-        <a href="#admissions" class="cta-button">Apply Now</a>
-    </div>
-
-    <!-- Image Slider -->
-    <div class="slider-container">
-        <div class="slider">
-            <img src="JHS_122024.png" alt="Image 1" class="slide">
-            <img src="SHS_122024-1.png" alt="Image 2" class="slide">
-            <img src="COLLEGE_122024.png" alt="Image 3" class="slide">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to LCC Tanauan</h1>
+            <p>Your future begins here. Choose Good, Choose LCC Tanauan!</p>
+            <a href="#admissions" class="cta-button">Apply Now</a>
         </div>
+    </section>
 
-        <!-- Navigation Arrows -->
-        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+   <!-- Image Slider -->
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide active">
+            <img src="JHS.png" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="SHS.png" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="COLLEGE.png" alt="Slide 3">
+        </div>
     </div>
-</section>
+    <button class="prev">❮</button>
+    <button class="next">❯</button>
+</div>
 
+       
+    </div>
 
-    <!-- About Section -->
-    <section id="about" class="section">
+      <!-- About Section -->
+      <section id="about" class="section">
         <h2>About LCC Tanauan</h2>
         <p>LCC Tanauan offers quality education, innovative programs, and a strong commitment to developing the leaders of tomorrow. We provide an inspiring learning environment that encourages personal and academic growth.</p>
     </section>
@@ -152,5 +158,7 @@ html <!DOCTYPE html>
     <footer>
         <p>&copy; 2024 LCC Tanauan. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
