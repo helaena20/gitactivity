@@ -28,7 +28,7 @@ header {
 
 .logo-container {
     display: flex;
-    align-items: center; /* Vertically center the logo and text */
+    align-items: center;
 }
 
 header .logo img {
@@ -40,8 +40,9 @@ header .logo img {
 
 .school-name {
     font-size: 24px;
-    font-weight: 600; /* Make the school name bold */
-    font-family: 'Poppins', sans-serif; /* You can change the font family if needed */
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif; 
+    align-items: center;
 }
 
 
