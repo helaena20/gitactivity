@@ -195,7 +195,6 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh; /* Adjust this value based on your layout */
     margin: 0 auto;
 }
 
