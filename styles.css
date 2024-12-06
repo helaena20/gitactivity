@@ -164,8 +164,14 @@ header nav ul li a:hover {
 
 /* Core Values */
 .core-values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 40px;
-    text-align: left;
+    text-align: center;
+    align-items: center;
+
+
 }
 
 .core-values h3 {
